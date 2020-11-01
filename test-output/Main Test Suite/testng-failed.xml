@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Main Test Suite]">
+  <test name="Simple API Tests(failed)">
+    <classes>
+      <class name="com.arruda.ApiTest">
+        <methods>
+          <include name="sampleLogin"/>
+        </methods>
+      </class> <!-- com.arruda.ApiTest -->
+    </classes>
+  </test> <!-- Simple API Tests(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->

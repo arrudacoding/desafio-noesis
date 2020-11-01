@@ -18,4 +18,14 @@ Após a instalação das dependências, é necessário instalar o plugin do Test
 
 E, por último, é necessário instalar o chromedriver na pasta C:/bin;
 
-Caso sua estação tenha outro WebDriver, ou, tenha o chromedriver em algum outro local, modificar BuscaRapidaGuiaMedicoSteps.java
+Caso sua estação tenha outro WebDriver, ou, tenha o chromedriver em algum outro local, modificar BuscaRapidaGuiaMedicoSteps.java.
+
+-----
+
+NOESIS-002:
+
+Para configurar o projeto é necessário apenas importar o mesmo como projeto maven pelo pom.xml;
+
+Também se faz necessário o plugin do TestNG para seu IDE;
+
+A execução é feita diretamente no arquivo ApiTest.java (Run as TestNG Suite).
