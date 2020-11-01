@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Main Test Suite" verbose="2" parallel="none" configfailurepolicy="skip">
+
+	<test name="Pesquisar Medicos - Guia Medico" annotations="JDK" preserve-order="true">
+		<classes>
+			<class name="execution.MainRunner" />
+		</classes>
+	</test>
+</suite>
